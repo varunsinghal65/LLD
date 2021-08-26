@@ -11,20 +11,9 @@ import java.util.*;
 public class ParkingLotServiceImpl implements IParkingLotService {
 
     @Override
-    public String park(ParkingLot parkingLot, Vehicle vehicle) throws ParkingLotFullException {
-        for (int i = 0; i < parkingLot.getFloors().size(); i++) {
-            List<ParkingSlot> slots = parkingLot.getFloors().get(i).getSlots();
-            for (int j = 0; j < slots.size(); j++) {
-                ParkingSlot slot = slots.get(j);
-                if (vehicle.getType().equals(slot.getType()) && slot.getParkedVehicle() == null) {
-                    slot.setParkedVehicle(vehicle);
-                    int floorNo = i + 1;
-                    int slotNo = j + 1;
-                    return parkingLot.getId() + "_" + floorNo + "_" + slotNo;
-                }
-            }
-        }
-        throw new ParkingLotFullException();
+    public String park(IParkingStrategy parkingStrategy, ParkingLot parkingLot,
+                       Vehicle vehicle) throws ParkingLotFullException {
+        return parkingStrategy.park(parkingLot, vehicle);
     }
 
     @Override

@@ -11,7 +11,8 @@ import java.util.Map;
 
 public interface IParkingLotService {
 
-    String park(ParkingLot parkingLot, Vehicle vehicle) throws ParkingLotFullException;
+    String park(IParkingStrategy parkingStrategy, ParkingLot parkingLot,
+                Vehicle vehicle) throws ParkingLotFullException;
 
     Vehicle unPark(int floorNo, int slotNo, ParkingLot parkingLot);
 

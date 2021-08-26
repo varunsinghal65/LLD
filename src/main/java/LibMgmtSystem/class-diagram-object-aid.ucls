@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="LibMgmtSystem.commands.CreateLibrary" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/CreateLibrary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2079" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="LibMgmtSystem.commands.PrintBorrowed" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/PrintBorrowed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2380" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="LibMgmtSystem.manager.UseCaseManager" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/manager/UseCaseManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1690" y="447"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="LibMgmtSystem.commands.BorrowBook" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/BorrowBook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2678" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="LibMgmtSystem.exceptions.RackNotAvailable" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/exceptions/RackNotAvailable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="71" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="LibMgmtSystem.services.LibraryMgmtServiceImpl" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/services/LibraryMgmtServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="916" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="LibMgmtSystem.services.ILibraryMgmtService" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/services/ILibraryMgmtService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1153" y="737"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="LibMgmtSystem.commands.AddBook" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/AddBook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2961" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="LibMgmtSystem.commands.CommandExecutorFactory" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/CommandExecutorFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="392" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="LibMgmtSystem.commands.RemoveBookCopy" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/RemoveBookCopy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3263" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="LibMgmtSystem.commands.Search" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/Search.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3558" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="LibMgmtSystem.exceptions.CopyIdNotFound" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/exceptions/CopyIdNotFound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="713" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="LibMgmtSystem.exceptions.Overlimit" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/exceptions/Overlimit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="913" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="LibMgmtSystem.models.Rack" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/models/Rack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1541" y="937"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="LibMgmtSystem.commands.ReturnBookCopy" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/ReturnBookCopy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3850" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="LibMgmtSystem.services.SearchImplementations" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/services/SearchImplementations.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1328" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="LibMgmtSystem.commands.CommandExecutor" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/CommandExecutor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2979" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="LibMgmtSystem.models.Library" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/models/Library.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1604" y="710"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="LibMgmtSystem.models.Book" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/models/Book.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1651" y="1290"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="LibMgmtSystem.exceptions.IdNotFound" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/exceptions/IdNotFound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1113" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="LibMgmtSystem.services.SearchCriteriaFactory" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/services/SearchCriteriaFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2133" y="185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="LibMgmtSystem.commands.BorrowCopy" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/commands/BorrowCopy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4156" y="348"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="LibMgmtSystem.services.SearchCriteria" project="LLD" 
+    file="/LLD/src/main/java/LibMgmtSystem/services/SearchCriteria.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1802" y="78"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="25">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="26" name="libraryMgmtService"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="31">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="32" name="ucManager"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="35" name="library"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="38" name="book"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="42">    
+    <bendpoint x="1793" y="216"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="43" name="BY_AUTHOR"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <bendpoint x="1460" y="76"/>    
+    <bendpoint x="1594" y="52"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="46" name="BY_ID"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="49" name="racks"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="52">    
+    <bendpoint x="1535" y="165"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="53" name="BY_PUBLISHER"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -3,6 +3,7 @@ package ParkingLot.manager;
 import ParkingLot.exceptions.ParkingLotFullException;
 import ParkingLot.models.*;
 import ParkingLot.services.IParkingLotService;
+import ParkingLot.services.LowestFloorLowestSlotNo;
 import ParkingLot.services.ParkingLotServiceImpl;
 import ParkingLot.services.SlotSelectionCriteria;
 
@@ -81,7 +82,8 @@ public class ParkingLotManager {
         if (type == null) {
             throw new IllegalArgumentException("Bad vehicle type received");
         }
-        ticket = this.parkingLotService.park(parkingLot, new Vehicle(type, color, regNo));
+        ticket = this.parkingLotService.park(new LowestFloorLowestSlotNo(), parkingLot,
+                new Vehicle(type, color, regNo));
         parkingTickets.add(ticket);
         return ticket;
     }
