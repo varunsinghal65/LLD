@@ -11,7 +11,8 @@ import java.util.Scanner;
 public class Client {
 
     private final static String COMMAND_SEPARATOR = " ";
-
+    private static final UseCaseManager ucManager = new UseCaseManager();
+    
     public static void main(String[] args) {
         while(true) {
             Scanner scanner = new Scanner(new InputStreamReader(System.in));
@@ -21,8 +22,7 @@ public class Client {
 
             //parse command and execute
             String command = inputArgs[0];
-            UseCaseManager ucManager = new UseCaseManager();
-            CommandExecutor commandExecutor = CommandExecutorFactory.getInstance("commandName", ucManager, inputArgs);
+            CommandExecutor commandExecutor = CommandExecutorFactory.getInstance(command, ucManager, inputArgs);
             commandExecutor.execute();
         }
     }
