@@ -1,8 +1,8 @@
-package template;
+package cliTemplate;
 
-import template.commands.CommandExecutor;
-import template.commands.CommandExecutorFactory;
-import template.manager.UseCaseManager;
+import cliTemplate.commands.CommandExecutor;
+import cliTemplate.commands.CommandExecutorFactory;
+import cliTemplate.manager.UseCaseManager;
 
 import java.io.InputStreamReader;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package template.commands;
+package cliTemplate.commands;
 
-import template.manager.UseCaseManager;
+import cliTemplate.manager.UseCaseManager;
 
 public abstract class CommandExecutor {
 

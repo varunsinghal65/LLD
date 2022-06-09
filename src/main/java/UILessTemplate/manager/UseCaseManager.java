@@ -1,4 +1,4 @@
-package template.manager;
+package UILessTemplate.manager;
 
 public class UseCaseManager {
 }
